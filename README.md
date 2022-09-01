@@ -1,14 +1,13 @@
-# css-documentation
-Kingdom CSS Documentation
+# Kingdom CSS Documentation
 
 Best way to write CSS - for everything to be consistent across.
 
-**1. Order of writing css **
+###  1. Order of writing css
 
 Inside of a class, CSS properties should be written in the following order.
 
-**.some-class {
-
+```
+.some-class {
      display: block;
      position:relative;
      left: 10px;
@@ -42,7 +41,32 @@ Inside of a class, CSS properties should be written in the following order.
      z-index: 10;
      cursor: pointer;
 
-**}**
+}
+```
+
+### 2. Class name convention
+
+Class name should be written as ```kebab-case```.
+
+**wrong**&#x1F34E; .someClass
+
+**wrong**&#x1F34E; .some_class
+
+**RIGHT**&#x1F34F; .some-class / .some-class-name
+
+
+### 3. Use specific CSS property instead of shorthand
+
+For example, if you need background color to be changed don't use ```background```. Instead use ```background-color``` to be more specific and don't accidentally overwrite some other property.
+
+**wrong**&#x1F34E; background: black;
+
+**RIGHT**&#x1F34F; background-color: black;
+
+### 4. Avoid ```!important``` whenever you can
+
+Try not to use ```!important``` in your own project. When you need to overwrite yourself it's mostly badly written css. 
+
 
 
 
