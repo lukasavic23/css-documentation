@@ -1,4 +1,4 @@
-# Kingdom CSS Documentation
+# CSS Documentation
 
 Best way to write CSS - for everything to be consistent across.
 
