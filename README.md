@@ -8,12 +8,17 @@ Inside of a class, CSS properties should be written in the following order.
 
 ```
 .some-class {
-     display: block;
      position:relative;
      left: 10px;
      top: 10px;
      right: 10px;
      bottom: 10px;
+     
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     justify-content: space-between;
+     gap: 10px;
      
      width: 10px;
      height: 10px;
