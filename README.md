@@ -38,7 +38,6 @@ Inside of a class, CSS properties should be written in the following order.
      text-align: center;
      text-decoration: none;
      
-     border-radius: 10px 10px 10px 10px;
      text-shadow: 10px 10px 5px 10px black;
      box-shadow: 10px 10px 5px 10px black inset;
      
